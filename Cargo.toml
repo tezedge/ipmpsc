@@ -6,7 +6,7 @@ repository = "https://github.com/dicej/ipmpsc"
 documentation = "https://docs.rs/ipmpsc/"
 keywords = ["ipc", "shared"]
 license = "MIT"
-version = "0.5.1"
+version = "0.5.2"
 authors = ["Joel Dice <joel.dice@gmail.com>"]
 edition = "2018"
 include = [ "Cargo.toml", "LICENSE.md", "README.md", "src/**/*", "examples/**/*" ]
@@ -42,7 +42,7 @@ errno = "0.2"
 
 [build-dependencies]
 anyhow = "1"
-vergen = "5"
+vergen = "6"
 
 [profile.release]
 debug = true
