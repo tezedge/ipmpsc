@@ -42,7 +42,7 @@ errno = "0.2"
 
 [build-dependencies]
 anyhow = "1"
-vergen = { git = "https://github.com/tezedge/vergen", branch = "replace-chrono" }
+vergen = "^7"
 
 [profile.release]
 debug = true
